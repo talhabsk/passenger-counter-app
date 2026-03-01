@@ -8,11 +8,13 @@ function increment() {
     countElement.innerText = count
 }
 
-function save(){
-    let countStr = count + " - "
-    saveElement.innerText += countStr
-    countElement.textContent = 0
-    count = 0
+function save() {
+    if (count > 0) {
+        let countStr = count + " - "
+        saveElement.innerText += countStr
+        countElement.textContent = 0
+        count = 0
+    }
 }
 
 function reset() {
