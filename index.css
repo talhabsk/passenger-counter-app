@@ -42,3 +42,6 @@ button {
     font-size: 24px;
     margin-top: 25px;
 }
+#reset-btn {
+    background: rgb(255, 153, 0); /* Tatlı bir turuncu/sarı uyarısı */
+}

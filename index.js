@@ -15,3 +15,8 @@ function save(){
     count = 0
 }
 
+function reset() {
+    count = 0
+    countElement.textContent = 0
+    saveElement.textContent = "Previous entries: "
+}
