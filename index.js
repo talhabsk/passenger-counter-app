@@ -1,3 +1,4 @@
+let saveElement = document.getElementById("save-element")
 let countElement = document.getElementById("count-element")
 let count = 0
 
@@ -8,6 +9,9 @@ function increment() {
 }
 
 function save(){
-    console.log(count)
+    let countStr = count + " - "
+    saveElement.innerText += countStr
+    countElement.textContent = 0
+    count = 0
 }
 

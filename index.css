@@ -37,3 +37,8 @@ button {
 #save-btn {
     background: rgb(33, 255, 33);
 }
+#save-element {
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+}
