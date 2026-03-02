@@ -12,13 +12,13 @@ function save() {
     if (count > 0) {
         let countStr = count + " - "
         saveElement.innerText += countStr
-        countElement.textContent = 0
+        countElement.innerText = 0
         count = 0
     }
 }
 
 function reset() {
     count = 0
-    countElement.textContent = 0
-    saveElement.textContent = "Previous entries: "
+    countElement.innerText = 0
+    saveElement.innerText = "Previous entries: "
 }
